@@ -61,7 +61,7 @@ Adicionando alguns projetos e aprendizagens que estou desenvolvendo na faculdade
 >Parâmetro:
 > - type: Tipo de ação para o botão.
 ---
-***OBS: Estou explicando cada funcionalidade das tags que estou utilizando com a descrição sobre como foi usado neste repositório, para mais detalhes sobre estas tags veja o site [mdn web doc](#https://developer.mozilla.org/pt-BR/docs/Web/HTML).***
+***OBS: Estou explicando cada funcionalidade das tags que estou utilizando com a descrição sobre como foi usado neste repositório, para mais detalhes sobre estas tags veja o site [mdn web doc](https://developer.mozilla.org/pt-BR/docs/Web/HTML).***
 
 ## Formulário completo
 
