@@ -10,7 +10,7 @@ Adicionando alguns projetos e aprendizagens que estou desenvolvendo na faculdade
 
 ## Descrição
 
->Usando o construtor de formulário [form](#form) para semântica, nele conseguimos criar então um [fieldset](#fieldset) - não é obrigatório mas fica com uma visualização melhor para o usuário - com uma legenda/titulo sobre o que se trata o formulário. Assim com a tag [label](#label) conseguimos nossa primeira "etiqueta" para nosso elemento de inserção de dados [input](#label). Com essas tags conseguimos criar um formulário simples. Vamos adicionar mais tags ao nosso formulário para extrair mais dados do usuário. Veja abaixo as tags que utilizamos e a representação dos formulários, caso necessário visite os [templates](#templates/) para melhor visualização ou o [arquivo_completo](#path).
+>Usando o construtor de formulário [form](#form) para semântica, nele conseguimos criar então um [fieldset](#fieldset) - não é obrigatório mas fica com uma visualização melhor para o usuário - com uma legenda/titulo sobre o que se trata o formulário. Assim com a tag [label](#label) conseguimos nossa primeira "etiqueta" para nosso elemento de inserção de dados [input](#label). Com essas tags conseguimos criar um formulário simples. Vamos adicionar mais tags ao nosso formulário para extrair mais dados do usuário. Veja abaixo as tags que utilizamos e a representação dos formulários, caso necessário visite os [templates](#https://github.com/Felipe-Tamura/Formularios/tree/main/templates) para melhor visualização ou o [arquivo_completo](#https://github.com/Felipe-Tamura/Formularios/tree/main/path).
 
 ## Tags
 
