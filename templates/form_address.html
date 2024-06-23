@@ -1,0 +1,23 @@
+<fieldset>
+    <legend>Endereço</legend>
+    <label for="type">Tipo:</label>
+    
+    <!-- Uma seleção para facilitar ao usuário escolher o tipo
+     do endereço -->
+    <select name="type" id="type">
+
+        <!-- Opções para o usuário. "selected" por padrão é selecionado
+         ao chamar o formulário -->
+        <option value="select" selected>Selecione</option>
+        <option value="road">Rua</option>
+        <option value="highway">Rodovia</option>
+        <option value="street">Estrada</option>
+        <option value="others">Outros</option>
+    </select>
+    <label for="public-place">Logradouro:</label>
+    <input type="text" id="public-place">
+    <label for="number-place">Número:</label>
+    <input type="number" id="number-place">
+    <label for="complement">Complemento:</label>
+    <input type="text" id="complement">
+</fieldset>
