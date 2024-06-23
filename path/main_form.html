@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario</title>
+    </head>
+    <body>
+        <!-- Construtor do formulário.-->
+        <form action="/processa-dados" method="post">
+
+            <!-- Dados gerais -->
+            <!-- Construindo o grupo dos dados gerais -->
+            <fieldset>
+
+                <!-- Adicionando legenda a caixa do formulário -->
+                <legend>Dados gerais</legend>
+
+                <!-- Titulo do input -->
+                <label for="name">Nome:</label>
+
+                <!-- 
+                    Definindo o tipo do dado que o formulário irá coletar, o minimo
+                    de letras que irá coletar e adicionando um id para realizar
+                    orientações a objetos futuramente
+                -->
+                <input type="text" minlength="3" id="name">
+                <label for="born-date">Data de nascimento:</label>
+                <input type="date" id="born-date">
+                <label for="cpf">CPF:</label>
+                <input type="number" minlength="11" id="cpf">
+
+            </fieldset>
+
+            <!-- Endreço -->
+            <fieldset>
+                <legend>Endereço</legend>
+                <label for="type">Tipo:</label>
+                
+                <!-- Uma seleção para facilitar ao usuário escolher o tipo
+                do endereço -->
+                <select name="type" id="type">
+
+                    <!-- Opções para o usuário. "selected" por padrão é selecionado
+                    ao chamar o formulário -->
+                    <option value="select" selected>Selecione</option>
+                    <option value="road">Rua</option>
+                    <option value="highway">Rodovia</option>
+                    <option value="street">Estrada</option>
+                    <option value="others">Outros</option>
+                </select>
+                <label for="public-place">Logradouro:</label>
+                <input type="text" id="public-place">
+                <label for="number-place">Número:</label>
+                <input type="number" id="number-place">
+                <label for="complement">Complemento:</label>
+                <input type="text" id="complement">
+            </fieldset>
+
+            <!-- Fale conosco -->
+            <fieldset>
+                <legend>Fale conosco</legend>
+                <label for="message">Mensagem:</label>
+                
+                <!-- Área de texto onde o usuário não irá ficar limitado para a mensagem -->
+                <textarea name="message-area" id="message" style="width:100%; height: 100;"></textarea>
+            </fieldset>
+
+            <!-- Botões -->
+            <fieldset>
+                
+                <!-- 
+                    Criando botões com tipos diferentes.
+                    submit: irá enviar o formulário para os dados serem processados
+                    reset: limpa o formulário para novo preenchimento
+                -->
+                <button type="submit">Enviar formulário</button>
+                <button type="reset">Limpar formulário</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
